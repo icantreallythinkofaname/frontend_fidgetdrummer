@@ -24,7 +24,9 @@
     <script>
       var i = 9;
       var dragged_id;
-      var instrument_spaces[12];
+      var instrument_spaces = {
+        "asset": 9
+      }
       $( function() {
         $( ".draggable" ).draggable({
           revert: "invalid",
