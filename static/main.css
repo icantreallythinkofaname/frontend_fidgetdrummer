@@ -1,0 +1,46 @@
+body {
+  background-color: blue;
+}
+
+.desktop .col-md-1 {
+  width: 60px;
+  margin: auto;
+}
+
+.desktop .col-xs-3 {
+  margin: auto;
+}
+
+.desktop {
+  margin: auto;
+}
+
+.desktop img {
+  width: 60px;
+}
+
+.platform {
+  height: 550px;
+}
+
+.platform .square {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.platform .hand {
+  width: 350px;
+  /*overflow: visible;*/
+}
+
+#left, #right {
+  float: left;
+  width: 50%;
+  height: 550px;
+}
+
+#right {
+  transform: scaleX(-1);
+}

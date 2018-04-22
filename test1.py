@@ -19,3 +19,5 @@ while True:
         #pyautogui.keyUp('a')
         pass
 #fdgjkl
+
+dict = {'a':1,'b':2}
